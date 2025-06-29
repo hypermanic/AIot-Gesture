@@ -28,7 +28,25 @@ A smart and touchless lighting system that uses **AI-based hand gesture recognit
 
 ## 📦 Project Structure
 
-<pre> ```bash AIoT-Gesture-Light-Control/ ├── python-gesture/ │ ├── gesture_control.py # Main gesture detection script │ └── firebase_update.py # Updates Firebase with gesture state ├── esp32-code/ │ └── light_control.ino # ESP32 code to read Firebase and toggle relay ├── assets/ │ └── demo.gif # Demo images/gifs ├── README.md └── requirements.txt ``` </pre>
+AIoT-Gesture-Light-Control/
+
+├── python-gesture/
+
+│   ├── gesture_control.py 
+                               
+│   └── firebase_update.py
+
+├── esp32-code/
+
+│   └── light_control.ino
+
+├── assets/
+
+│   └── demo.gif
+
+├── README.md
+
+└── requirements.txt
 
 
 ---
